@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+    gap: 30px;
+    background-color: silver;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.forget-username{
+    color: rgb(59, 59, 255);
+}
